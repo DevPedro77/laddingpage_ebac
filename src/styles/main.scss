@@ -1,10 +1,14 @@
 @use 'hero.scss';
+@use './componentes/infos-bar.scss';
+@use './componentes/buttons.scss';
 
 * { //Reset
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  color: #fff;
+  list-style: none;
 }
 
 .container {
@@ -18,7 +22,7 @@
       max-width: 80%;
     }
   }
-
+//conatiner para notebooks
   @media screen and (max-width: 1024px) {
     .container {
       max-width: 90%;

@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
+//Criando um elemento de transparência, não parece se  a melhor forma de fazer isso!
   &::before {
     position: absolute;
     top: 0;
@@ -20,7 +20,6 @@
   &__text {
     margin-top: 64px;
     margin-bottom: 64px;
-    color: #fff;
     font-size: 40px;
     line-height: 56px;
     text-align: center;
@@ -32,6 +31,7 @@
     display: block;
     height: 80px;
   }
+  // lidando com a responsividade do mobile
   @media screen and (max-width: 640px) {
     padding: 40px 0;
     &__logo {

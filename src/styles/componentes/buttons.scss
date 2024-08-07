@@ -1,0 +1,19 @@
+.button {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+
+  &--primary {
+    color: white;
+    background-color: #4f2ac3;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 640px) {
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+  }
+}
