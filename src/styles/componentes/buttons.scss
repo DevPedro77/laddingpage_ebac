@@ -1,3 +1,5 @@
+@use '../variaveis';
+
 .button {
   padding: 12px;
   font-size: 18px;
@@ -6,7 +8,7 @@
 
   &--primary {
     color: white;
-    background-color: #4f2ac3;
+    background-color: variaveis.$purple;
     text-decoration: none;
   }
 

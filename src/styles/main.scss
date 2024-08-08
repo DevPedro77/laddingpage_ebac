@@ -1,13 +1,15 @@
 @use 'hero.scss';
 @use './componentes/infos-bar.scss';
 @use './componentes/buttons.scss';
+@use 'event.scss';
+@use './variaveis.scss';
 
 * { //Reset
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: variaveis.$textColor;
   list-style: none;
 }
 
@@ -17,15 +19,14 @@
   margin: 0 auto;
   position: relative;
   //Container para dispositivos mobile
-  @media screen and (max-width: 640){
-    .container {
-      max-width: 80%;
-    }
-  }
-//conatiner para notebooks
   @media screen and (max-width: 1024px) {
     .container {
       max-width: 90%;
+    }
+  }
+  @media screen and (max-width: 640){
+    .container {
+      max-width: 80%;
     }
   }
 }

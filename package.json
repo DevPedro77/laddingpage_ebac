@@ -6,7 +6,6 @@
   },
   "name": "projeto",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "ansi-styles": "^4.3.0",
@@ -63,6 +62,9 @@
   },
   "scripts": {
     "dev": "parcel src/index.html src/scripts/main.js src/styles/main.scss",
+    "build": "parcel build src/index.html",
+
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
